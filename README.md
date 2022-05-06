@@ -29,3 +29,8 @@ php artisan migrate --seed
 ```
 php artisan migrate
 ```
+
+7. setup queue worker for sending email
+```
+php artisan queue:work
+```
